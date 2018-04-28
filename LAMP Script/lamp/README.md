@@ -37,7 +37,7 @@ chmod +x script.sh
 
 vagrant init
 
-#3This will create a VagrantFile. Edit the VagrantFile as listed in VagrantFile.
+#3 This will create a VagrantFile. Edit the VagrantFile as listed in VagrantFile.
 
 #4- Let us now start provisioning the LAMP installation. #For that, create a simple shell script named script.sh using your favorite text editor as listed in script.sh.
 
@@ -64,7 +64,3 @@ dpkg -l | grep "apache2|mysql-server-5.5|php5"
 ## Built With
 
 * howtoforge (https://www.howtoforge.com/tutorial/ubuntu-vagrant-install-and-getting-started/) - HowtoForge provides user-friendly Linux tutorials.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details

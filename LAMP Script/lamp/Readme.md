@@ -1,3 +1,11 @@
+How to use it:
+Download the following shell script on your server or clone it with the following command.
+
+git clone https://github.com/peleduri/Study.git
+#Give the execution right to it.
+chmod +x install.sh
+
+
 #Vagrant and setting up LAMP development environment in Vagrant.
 #To start with, LAMP stands for: Linux (OS/Kernel), Apache (Web Server), MySQL (Database), PHP (Scripting Language).
 #It is an open-source Web development environment which lets you create web applications. 

@@ -29,7 +29,7 @@ mkdir -p ~Study/LAMP Script/lamp
 cd ~Study/LAMP Script/lamp
 
 git clone https://github.com/peleduri/Study.git #Give the execution right to it. 
-chmod +x install.sh
+chmod +x script.sh
 
 
 #2- Now we are required to initialize the Vagrant box. #This initializes the current directory to be a Vagrant environment by creating an initial Vagrantfile if one does not already exist. #If a first argument is given, it will prepopulate the config.vm.box setting in the created Vagrantfile. #If a second argument is given, it will prepopulate the config.vm.box_url setting in the created Vagrantfile.

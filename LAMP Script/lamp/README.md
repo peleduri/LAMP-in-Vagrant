@@ -28,7 +28,8 @@ mkdir -p ~Study/LAMP Script/lamp
 
 cd ~Study/LAMP Script/lamp
 
-git clone https://github.com/peleduri/Study.git #Give the execution right to it. 
+git clone https://github.com/peleduri/LAMP-in-Vagrant.git #Give the execution right to it. 
+
 chmod +x script.sh
 
 

@@ -9,19 +9,21 @@ It is an highly efficient tool for managing virtual machines via CLI. This incre
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
 
 ### Prerequisites
 
 Download & install the latest version of Vagrant & Virtual Box,
 by visiting Vagrant website and VirtualBox website. 
 
+Download the following shell script on your server or clone it with the following command.
+
+git clone https://github.com/peleduri/Study.git #Give the execution right to it. 
+chmod +x install.sh
 
 ### Installing
 
-How to use it: Download the following shell script on your server or clone it with the following command.
-
-git clone https://github.com/peleduri/Study.git #Give the execution right to it. chmod +x install.sh
+Let us now setup LAMP development environment in Vagrant with below steps:
 
 #1- Create a directory where we would be creating the instance:
 
@@ -45,6 +47,8 @@ vagrant up
 
 
 ## Running the tests
+
+#6- Now after the vagrant is done with installation, you are ready to go. SSH into the vagrant box as:
 
 vagrant ssh lamp
 
